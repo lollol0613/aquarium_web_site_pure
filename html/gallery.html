@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to AUCKLAND AQUARIUM</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css">
+	<style>
+		body {
+			background:url(../images/gal_back.jpg) no-repeat center center fixed;
+			position:relative;
+			background-size:cover;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+		}
+		.menu_title {
+			width:10%;
+			border-bottom:3px solid #f2c1bd;
+			padding-bottom:10px;
+			margin-top:20px;
+		}
+		.container img {
+			vertical-align: middle;
+		}
+		/* Position the image container (needed to position the left and right arrows) */
+		.container {
+			position: relative;
+			width:65%;
+			margin:30px auto;
+		}
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+			margin:0 auto;
+		}
+		/* Add a pointer when hovering over the thumbnail images */
+		.cursor {
+			cursor: pointer;
+		}
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 40%;
+			width: auto;
+			padding: 16px;
+			margin-top: -50px;
+			color:#ffffff;
+			font-weight: bold;
+			font-size: 20px;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			-webkit-user-select: none;
+		}
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+		/* Container for image text */
+		.caption-container {
+			text-align: center;
+			background-color: #222;
+			padding: 2px 16px;
+			color:#ffffff;
+			font-family:'Merriweather';
+			font-size:90%;
+			font-weight:lighter;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float:left;
+  width:16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<ul id="menu">
+			<li><a href="home.html"><img src="../icon/logo_white.png" alt="" id="logo"></a></li>
+			<li class="menu"><a href="home.html">home</a></li>
+			<li class="menu"><a href="about.html">about</a></li>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">visitor info</button><div class="dropdown-content"><a href="visitorinfo.html">Hours&Tickets</a><a href="membership.html">Membership</a></div></li></div>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">events</button><div class="dropdown-content"><a href="events.html">Feeding</a><a href="mermaid.html">mermaid show</a></div></li></div>
+			<li class="menu"><a href="gallery.html">gallery</a></li>
+			<li class="menu"><a href="direction.html">direction</a></li>
+			<li class="menu"><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	<div class="center">
+		<h1 class="menu_title">gallery</h1>
+		<div class="container">
+			<div class="mySlides">
+				<div class="numbertext">1 / 12</div>
+				<img src="../images/gallery/1.jpeg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">2 / 12</div>
+				<img src="../images/gallery/2.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">3 / 12</div>
+				<img src="../images/gallery/3.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">4 / 12</div>
+				<img src="../images/gallery/4.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">5 / 12</div>
+				<img src="../images/gallery/12.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">6 / 12</div>
+				<img src="../images/gallery/7-1.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">7 / 12</div>
+				<img src="../images/gallery/8.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">8 / 12</div>
+				<img src="../images/gallery/15.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">9 / 12</div>
+				<img src="../images/gallery/10.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">10 / 12</div>
+				<img src="../images/gallery/11.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">11 / 12</div>
+				<img src="../images/gallery/13.jpg" alt="" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">12 / 12</div>
+				<img src="../images/gallery/14.jpg" alt="" style="width:100%">
+			</div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../images/gallery/1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="You can meet the mermaids everyday at the Mermaid Theatre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/gallery/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Auckland Aquarium is one of the biggest aquariums in the world, it was even cited as having more aquatic life than any other aquarium at the time of opening">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/gallery/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Our dolphins want to meet you at Auckland Aquarium">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/gallery/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Giant Aquarium Tunnel is one of the largest aquatic exhibits in the world, also featuring an acrylic tunnel to walk under whale sharks, manta rays and tons of fish">
+    </div>  
+    <div class="column">
+      <img class="demo cursor" src="../images/gallery/12.jpg" style="width:100%" onclick="currentSlide(5)" alt="These fantastic creatures swim above and around the Ocean Voyager exhibit-you can sit and stare for hours at the large fish cruising through the water">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/7-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Auckland Aquarium transforms into a winter wonderland to kick start the holiday season with its annual extravaganza – Festival of the SEAson">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/8.jpg" style="width:100%" onclick="currentSlide(7)" alt="Beaver and sea otters are just some of the water life you can see from portal holes">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/15.jpg" style="width:100%" onclick="currentSlide(8)" alt="This amazing experience highlights the grace and athleticism of these amazing marin mammals">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/10.jpg" style="width:100%" onclick="currentSlide(9)" alt="Turtles are living in the Pier225. Sometimes you can't meet them because they swim around at night">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/11.jpg" style="width:100%" onclick="currentSlide(10)" alt="Our diver is traveling with sharks to watch them for their health">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/13.jpg" style="width:100%" onclick="currentSlide(11)" alt="Auckland Aquarium is committed to working with beluga whales both in our care and in their natural habitats">
+    </div>
+	  <div class="column">
+      <img class="demo cursor" src="../images/gallery/14.jpg" style="width:100%" onclick="currentSlide(12)" alt="Get up close with the penguins as they snack during feeding time, which also makes for a fun photo opp.">
+    </div>
+  </div>
+</div>
+	</div>
+	<footer>
+		<p class="f_detail">
+			<span class="fh">Contacts</span>
+			<br>
+			<br>
+			Information Center<br>
+			<span class="cm"><a href="mailto:info@aaquarium.co.nz">info@aaquarium.co.nz</a></span><br>
+			HALL    <span class="cm"><a href="tel:6419876543">+64 1 987 6543</a></span><br>
+			THEATRE <span class="cm"><a href="tel:6412345678">+64 1 234 5678</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Address</span>
+			<br>
+			<br>
+			23 Tamaki Drive<br>
+			Orakei<br>
+			Auckland<br>
+			New Zealand 1071
+			</p>
+			<p class="f_detail">
+			<span class="fh">Join our Membership</span>
+			<br>
+			<br>
+			Become a member!<br>
+			View full membership benefits and Join<br>
+				<span class="link"><a href="membership.html" class="jl">HERE</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Connect with us</span>
+			<br>
+			<br>
+			<a href="http://www.facebook.com" target="_blank"><img src="../icon/facebook.png" alt="Facebook" class="icon"></a>
+			<a href="http://www.twitter.com" target="_blank"><img src="../icon/twitter.png" alt="Twitter" class="icon"></a>
+			<a href="http://www.instagram.com" target="_blank"><img src="../icon/instagram.png" alt="Instagram" class="icon"></a>
+			<a href="http://www.pinterest.com" target="_blank"><img src="../icon/pinterest.png" alt="Pinterest" class="icon"></a>
+			<a href="http://www.youtube.com" target="_blank"><img src="../icon/youtube.png" alt="Youtube" class="icon"></a>
+			</p>
+		</footer>
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>

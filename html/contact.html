@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to AUCKLAND AQUARIUM</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css">
+	<style>
+	body {
+		margin:0 auto;
+		padding:0px;
+		background:url(../images/contact.jpg) no-repeat center center fixed;
+		position:relative;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+	}
+	#ss {
+		color:#f2c1bd;
+	}
+	.menu_title {
+		border-bottom:none;
+		margin-top:20px;
+	}
+	.con_t {
+		width:70%;
+		margin:30px auto;
+		color:#ffffff;
+	}
+	.con_t a {
+		text-decoration:none;
+		color:#ffffff;
+	}
+		.con_t a:hover {
+			text-decoration:underline;
+			color:#f2c1bd;
+		}
+	.con_t th {
+		padding:10px;
+		background-color:#ffffff;
+		width:50%;
+		color:#595757;
+		border-radius:3px;
+		font-size:110%;
+		letter-spacing:1px;
+		font-weight:normal;
+	}
+	.con_t td {
+		width:25%;
+		padding:10px;
+		text-indent:10px;
+	}
+		table {
+			width:100%;
+		}
+		table td {
+			text-transform: uppercase;
+		}
+		select {
+			padding:5px;
+			height:30px;
+		}
+	#ask {
+		color:#f2c1bd;
+		font-size:150%;
+		margin:40px auto;
+		text-align:center;
+		letter-spacing:1px;
+		text-transform:uppercase;
+	}
+	input[type=text], input[type=email], input[type=tel],select, textarea {
+		width:100%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		resize:vertical;
+	}
+		input[type=submit] {
+			background-color:#f2c1bd;
+			color:#ffffff;
+			padding:12px 20px;
+			border:none;
+			border-radius:4px;
+			cursor:pointer;
+			text-transform: uppercase;
+			font-size:90%;
+			
+		}
+		input[type=submit]:hover {
+			background-color:#ae7890;
+		}
+		.ask_f {
+			border-radius:5px;
+			background-color:#f2f2f2;
+			padding:20px;
+			width:60%;
+			color:#595757;
+			margin:20px auto;
+		}
+		.ast {
+			color:red;
+		}
+		.signupbtn {
+			float:left;
+			width:100%;
+			padding:14px 20px;
+			background-color:#f2c1bd;
+			font-size:90%;
+			border:none;
+			text-transform: uppercase;
+			letter-spacing:1px;
+			color:#595757;
+			cursor:pointer;
+		}
+		.signupbtn:hover {
+			background-color:#f58a94;
+			color:#ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<ul id="menu">
+			<li><a href="home.html"><img src="../icon/logo_white.png" alt="" id="logo"></a></li>
+			<li class="menu"><a href="home.html">home</a></li>
+			<li class="menu"><a href="about.html">about</a></li>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">visitor info</button><div class="dropdown-content"><a href="visitorinfo.html">Hours&Tickets</a><a href="membership.html">Membership</a></div></li></div>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">events</button><div class="dropdown-content"><a href="events.html">Feeding</a><a href="mermaid.html">mermaid show</a></div></li></div>
+			<li class="menu"><a href="gallery.html">gallery</a></li>
+			<li class="menu"><a href="direction.html">direction</a></li>
+			<li class="menu"><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	<div class="center">
+	<h1 class="menu_title">contact us<span id="ss"> ! </span></h1>
+		<div class="contact">
+		<table class="con_t">
+			<tr>
+				<th colspan="2">Aquarium general enquiries</th>
+				<th colspan="2">Mermaid's cafe</th></tr>
+				<tr><td>Phone</td><td><a href="tel:6419876543">+64 1 987 6543</a></td><td>Phone</td><td><a href="tel:6419876544">+64 1 987 6544</a></td></tr>
+				<tr><td>Email</td><td><a href="mailto:info@aaquarium.co.nz">info@aaquarium.co.nz</a></td><td>Email</td><td><a href="mailto:cafe@aaquarium.co.nz">cafe@aaquarium.co.nz</a></td></tr>
+			</table>
+		<table class="con_t">
+			<tr>
+			<th colspan="2">Gift shop</th>
+				<th colspan="2">Education</th></tr>
+			<tr><td>Phone</td><td><a href="tel:6419876545">+64 1 987 6545</a></td><td>Phone</td><td><a href="tel:6419876546">+64 1 987 6546</a></td></tr>
+				<tr><td>Email</td><td><a href="mailto:gift@aaquarium.co.nz">gift@aaquarium.co.nz</a></td><td>Email</td><td><a href="mailto:edu@aaquarium.co.nz">edu@aaquarium.co.nz</a></td></tr>
+			</table>
+		<table class="con_t">
+			<tr>
+				<th colspan="2">Membership</th></tr>
+				<tr><td>Phone</td><td><a href="tel:6419876547">+64 1 987 6547</a></td><td></td><td></td></tr>
+			<tr><td>Email</td><td><a href="mailto:membership@aaquarium.co.nz">membership@aaquarium.co.nz</a></td><td></td><td></td></tr>
+			</table>
+			<p id="ask">or you can email us about enquiries</p>
+			<div class="ask_f">
+			<form name="conForm" method="post" onSubmit="return validateForm()">
+				<p class="ast" style="text-align:right;">* Mandatory fields</p>
+				<table>
+				<tr><td>First Name<span class="ast">*</span></td></tr>
+					<tr><td><input type="text" name="fname" placeholder="Your First name" pattern="[A-Za-z]{1,20}" required autofocus></td></tr>
+					<tr><td>Last name<span class="ast">*</span></td></tr>
+					<tr><td><input type="text" name="lname" placeholder="Your last name" pattern="[A-Za-z]{1,20}" required></td></tr>
+					<tr><td>Email Address<span class="ast">*</span></td></tr>
+					<tr><td><input type="email" name="eadd" placeholder="Your Email Address" required></td></tr>
+					<tr><td>Contact No.</td></tr>
+					<tr><td><input type="tel" name="cno" placeholder="Your Contact Number" pattern="[0-9]{7,20}"></td></tr>
+					<tr><td>Subject</td></tr>
+					<tr><td><select id="subject" name="subject">
+					<option value="-1" selected>Select...</option>
+					<option value="ge">General Enquiries</option>
+					<option value="ms">Membership Enquiries</option>
+					<option value="gs">Gift Shop Enquiries</option>
+					<option value="ep">Education Programme Enquiries</option>
+					<option value="etc">Etc...</option>
+				</select></td></tr>
+					<tr><td>message<span class="ast">*</span></td></tr>
+					<tr><td><textarea id="msg" name="message"  placeholder="Write your enquiries within 500 characters" style="height:200px" maxlength="500" required></textarea></td></tr>
+					<tr><td><button type="submit" class="signupbtn" onClick="validateForm()">SUBMIT</button></td></tr>
+				</table>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="f_detail">
+			<span class="fh">Contacts</span>
+			<br>
+			<br>
+			Information Center<br>
+			<span class="cm"><a href="mailto:info@aaquarium.co.nz">info@aaquarium.co.nz</a></span><br>
+			HALL    <span class="cm"><a href="tel:6419876543">+64 1 987 6543</a></span><br>
+			THEATRE <span class="cm"><a href="tel:6412345678">+64 1 234 5678</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Address</span>
+			<br>
+			<br>
+			23 Tamaki Drive<br>
+			Orakei<br>
+			Auckland<br>
+			New Zealand 1071
+			</p>
+			<p class="f_detail">
+			<span class="fh">Join our Membership</span>
+			<br>
+			<br>
+			Become a member!<br>
+			View full membership benefits and Join<br>
+				<span class="link"><a href="membership.html">HERE</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Connect with us</span>
+			<br>
+			<br>
+			<a href="http://www.facebook.com" target="_blank"><img src="../icon/facebook.png" alt="Facebook" class="icon"></a>
+			<a href="http://www.twitter.com" target="_blank"><img src="../icon/twitter.png" alt="Twitter" class="icon"></a>
+			<a href="http://www.instagram.com" target="_blank"><img src="../icon/instagram.png" alt="Instagram" class="icon"></a>
+			<a href="http://www.pinterest.com" target="_blank"><img src="../icon/pinterest.png" alt="Pinterest" class="icon"></a>
+			<a href="http://www.youtube.com" target="_blank"><img src="../icon/youtube.png" alt="Youtube" class="icon"></a>
+			</p>
+		</footer>
+	<script>
+		function validateForm() {
+			var f_name = document.forms["conForm"]["fname"].value;
+			if(f_name == 0) {
+				alert("First Name must be filled out");
+				document.forms["conForm"]["fname"].focus();
+				return false;
+			}
+			for(i=0; i < document.forms["conForm"]["fname"].value.length; i++) {
+				var fn = document.forms["conForm"]["fname"].value.charAt(i);
+				if (!(fn >= 'a' && fn <= 'z')&&!(fn >= 'A' && fn <= 'Z')) {
+					alert("First Name must be used only Alphabet");
+					document.forms["conForm"]["fname"].focus();
+					return false;
+			}
+		}
+		if(document.forms["conForm"]["fname"].value.length > 20) {
+			alert("Please Enter the First name within 20 characters");
+			document.forms["conForm"]["fname"].focus();
+			return false;
+		}
+		var l_name = document.forms["conForm"]["lname"].value;
+			if(l_name == 0) {
+				alert("Last Name Must be filled out");
+				document.forms["conForm"]["lname"].focus();
+				return false;
+			}
+			for (i=0; i < document.forms["conForm"]["lname"].value.length; i++) {
+				var ln = document.forms["conForm"]["lname"].value.charAt(i);
+				if (!(ln >= 'a' && ln <= 'z')&&!(ln >= 'A' && ln <= 'Z')) {
+					alert("Last Name Must be used only Alphabet");
+					document.forms["conForm"]["lname"].focus();
+					return false;
+				}
+			}
+			if(document.forms["conForm"]["lname"].value.length > 20) {
+				alert("Please Enter the Last Name within 20 characters");
+				document.forms["conForm"]["lname"].focus();
+				return false;
+			}
+		var e_add = document.forms["conForm"]["eadd"].value;
+		if(e_add == "") {
+			alert("Email Address must be filled out");
+			document.forms["conForm"]["eadd"].focus();
+			return false;
+		}
+		for (i=0; i < document.forms["conForm"]["cno"].value.length; i++) {
+			var con_n = document.forms["conForm"]["cno"].value.charAt(i);
+			if(!(con_n >= '0' && con_n <= '9')) {
+				alert("Please Enter only NUMBERS");
+				document.forms["conForm"]["cno"].focus();
+				return false;
+			}
+		}
+		var ms = document.["conForm"]["message"].value;
+			if(ms == "") {
+				alert("Please write your enquiries for us");
+				document.forms["conForm"]["message"].focus();
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>

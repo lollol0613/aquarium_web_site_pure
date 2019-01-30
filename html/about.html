@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link href="../css/basic.css" rel="stylesheet" type="text/css">
+<title>Welcome to AUCKLAND AQUARIUM</title>
+<style>
+	body {
+		background:url(../images/event_back.jpg) no-repeat center center fixed;
+		position:relative;
+		background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+	}
+.about {
+	float:left;
+	margin-left:30px;
+	color:#ffffff;
+	width:30%;
+	height:auto;
+}
+.about ul {
+	list-style-type:none;
+	text-align:center;
+	padding-left:30px;
+	padding-top:20px;
+}
+.about ul li img {
+	width:250px;
+}
+.about_detail {
+	margin-left:0px;
+	padding:0 0 40px 40px;
+	overflow:hidden;
+	color:#ffffff;
+	width:50%;
+	height:auto;
+}
+	.menu_title {
+		width:100px;
+		border-bottom:3px solid #f2c1bd;
+		padding:10px;
+		margin-top:20px;
+	}
+	.about_sub {
+		font-size:500%;
+		margin:30px auto;
+		padding:0px;
+		line-height:0.9;
+	}
+	.about_info {
+		font-family:"Merriweather";
+		font-size:80%;
+		letter-spacing:1px;
+	}
+	.movieicon {
+		width:50px;
+		padding:10px;
+		cursor:pointer;
+	}
+	.video {
+		margin:0 auto;
+		padding:0;
+		width:100%;
+	}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<ul id="menu">
+			<li><a href="home.html"><img src="../icon/logo_white.png" alt="" id="logo"></a></li>
+			<li class="menu"><a href="home.html">home</a></li>
+			<li class="menu"><a href="about.html">about</a></li>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">visitor info</button><div class="dropdown-content"><a href="visitorinfo.html">Hours&Tickets</a><a href="membership.html">Membership</a></div></li></div>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">events</button><div class="dropdown-content"><a href="events.html">Feeding</a><a href="mermaid.html">mermaid show</a></div></li></div>
+			<li class="menu"><a href="gallery.html">gallery</a></li>
+			<li class="menu"><a href="direction.html">direction</a></li>
+			<li class="menu"><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	<div class="center">
+		<h1 class="menu_title">about</h1>
+	<div class="about">
+		<ul>
+		<li><img src="../icon/logo_white.png" alt=""></li>
+		</ul>
+	</div>
+	<div class="about_detail">
+	<h2 class="about_sub">YOU CAN<br>
+		FIND OUT ALL<br>
+		YOU WANT</h2>
+		<p class="about_info">From the Oceanarium and Māori mythology, to the history and architecture, to the people that care for the animals every day, you can find out about it all here. You can also find out about being a volunteer or friend of the aquarium, along with the news, events and activities that make the aquarium such a great place to visit!</p>
+					<p class="about_info">The 1.5 million litre Oceanarium showcases the many and varied aquatic species that exist in the adjacent Hawke Bay, including five types of shark and many other reef fish. You can journey through the Oceanarium inside our amazing underwater viewing tunnel via a 50m travelator as hundreds of local fish species swim and feed, above and around you.</p>
+					<p class="about_info">Elsewhere in the aquarium, you can view more native saltwater and freshwater species, as well as exotic reef and deep-sea fish from around the world. The kiwi, tuatara and penguin enclosures provide an insight into New Zealand's most precious species. Also on exhibition are species from the Americas, Asia and Australia, including alligators and piranhas.</p>
+		<br>
+	</div>
+		</div>
+		<footer>
+		<p class="f_detail">
+			<span class="fh">Contacts</span>
+			<br>
+			<br>
+			Information Center<br>
+			<span class="cm"><a href="mailto:info@aaquarium.co.nz">info@aaquarium.co.nz</a></span><br>
+			HALL    <span class="cm"><a href="tel:6419876543">+64 1 987 6543</a></span><br>
+			THEATRE <span class="cm"><a href="tel:6412345678">+64 1 234 5678</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Address</span>
+			<br>
+			<br>
+			23 Tamaki Drive<br>
+			Orakei<br>
+			Auckland<br>
+			New Zealand 1071
+			</p>
+			<p class="f_detail">
+			<span class="fh">Join our Membership</span>
+			<br>
+			<br>
+			Become a member!<br>
+			View full membership benefits and Join<br>
+				<span class="link"><a href="membership.html" class="jl">HERE</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Connect with us</span>
+			<br>
+			<br>
+			<a href="http://www.facebook.com" target="_blank"><img src="../icon/facebook.png" alt="Facebook" class="icon"></a>
+			<a href="http://www.twitter.com" target="_blank"><img src="../icon/twitter.png" alt="Twitter" class="icon"></a>
+			<a href="http://www.instagram.com" target="_blank"><img src="../icon/instagram.png" alt="Instagram" class="icon"></a>
+			<a href="http://www.pinterest.com" target="_blank"><img src="../icon/pinterest.png" alt="Pinterest" class="icon"></a>
+			<a href="http://www.youtube.com" target="_blank"><img src="../icon/youtube.png" alt="Youtube" class="icon"></a>
+			</p>
+		</footer>
+<script>
+	var myVideo = document.getElementById("movie");
+		function play() {
+			if (myVideo.paused)
+				myVideo.play();	
+		}
+		function pause() {
+			if(myVideo.play)
+				myVideo.pause();
+		}
+	</script>
+</body>
+</html>

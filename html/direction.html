@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="../css/basic.css" rel="stylesheet" type="text/css">
+<title>Welcome to AUCKLAND AQUARIUM</title>
+<style>
+		body {
+			background:url(../images/direction.jpg) no-repeat center center fixed;
+			position:relative;
+			background-size:cover;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+		}
+	
+	.menu_title {
+		width:150px;
+		border-top:3px solid #f2c1bd;
+		border-bottom:0px;
+		padding:5px;
+		margin:10px auto;
+		text-align:center;
+	}
+	.dir_sub_left {
+		float:left;
+		width:24%;
+		margin:0 10px 0 0;
+	}
+	.dir_sub_left p {
+		margin:0 auto;
+		text-align:right;
+		color:#ffffff;
+		font-size:150%;
+	}
+	.dir_sub_right {
+		width:50%;
+		margin:0 auto 10px auto;
+		color:#ffffff;
+		float:left;
+		padding:3px 0 3px 0;
+		text-align:justify;
+		background-color:rgba(0,0,0,0.20);
+		font-size:110%;
+		border-radius: 10px;
+	}
+	.dir_sub_right p {
+		padding:0 15px;
+		margin:10px 20px;
+	}
+	.dir_sub_right ul {
+		padding:0 50px;
+	}
+	.dir_map {
+		width:100%;
+		vertical-align: middle;
+	}
+	iframe {
+		width:50%;
+		height:350px;
+		margin:20px auto;
+	}
+	@keyframes carAction {
+		from {left:200px;}
+		to {left:760px;}
+	}
+	#car {
+		transition-duration:0.8s;
+		animation-name:carAction;
+		position:relative;
+		animation-fill-mode:forwards;
+		animation: carAction 5s 1;
+		-webkit-animation: carAction 5s 1;
+		animation-iteration-count: infinite;
+	}
+	#aquarium {
+		margin-left:70%;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<ul id="menu">
+			<li><a href="home.html"><img src="../icon/logo_white.png" alt="" id="logo"></a></li>
+			<li class="menu"><a href="home.html">home</a></li>
+			<li class="menu"><a href="about.html">about</a></li>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">visitor info</button><div class="dropdown-content"><a href="visitorinfo.html">Hours&Tickets</a><a href="membership.html">Membership</a></div></li></div>
+			<div class="dropdown"><li class="menu"><button class="dropbtn">events</button><div class="dropdown-content"><a href="events.html">Feeding</a><a href="mermaid.html">mermaid show</a></div></li></div>
+			<li class="menu"><a href="gallery.html">gallery</a></li>
+			<li class="menu"><a href="direction.html">direction</a></li>
+			<li class="menu"><a href="contact.html">contact</a></li>
+		</ul>
+	</div>	
+	<div class="center">
+		<p class="comm">Whether you're on foot, cycling, driving or flying,<br>it's easy to find AUCKLAND AQUARIUM on Napier's iconic Marine Parade.</p>
+		<h1 class="menu_title">direction</h1>
+		<div class="dir_sub_left">
+			<p>HOW TO<br>FIND<br><span style="color:#f2c1db">AUCKLAND AQUARIUM</span></p>
+		</div>
+		<div class="dir_sub_right"><p>AUCKLAND AUQARIUM is located on Marine Parade, Napier in sunny Hawke's Bay. The aquarium is a scenic 15 minute walk from Napier's city centre, or a brisk 5 minute cycle ride along the waterfront.<br><br><b>Address: </b>Auckland Aquarium, Marine Parade, Napier, Auckland, New zealand</p></div>
+		<div class="dir_map"><center>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.607578481078!2d176.91674711539375!3d-39.500774840207505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d684cc3bcb52d31%3A0xca08fdfd12682138!2sNational+Aquarium+of+New+Zealand!5e0!3m2!1sko!2snz!4v1517902087183" style="border:0" allowfullscreen></iframe></center></div>
+		<div class="dir_sub_left">
+			<p><span style="color:#f2c1db">PARKING</span></p>
+		</div>
+		<div class="dir_sub_right">
+			<ul>
+				<li>Large car park including bus and camper parking</li><li>Disability parking (easy access for visitors with disabilities is also available throughout the aquarium)</li>
+			</ul></div>
+	</div>
+			<footer>
+		<p class="f_detail">
+			<span class="fh">Contacts</span>
+			<br>
+			<br>
+			Information Center<br>
+			<span class="cm"><a href="mailto:info@aaquarium.co.nz">info@aaquarium.co.nz</a></span><br>
+			HALL    <span class="cm"><a href="tel:6419876543">+64 1 987 6543</a></span><br>
+			THEATRE <span class="cm"><a href="tel:6412345678">+64 1 234 5678</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Address</span>
+			<br>
+			<br>
+			23 Tamaki Drive<br>
+			Orakei<br>
+			Auckland<br>
+			New Zealand 1071
+			</p>
+			<p class="f_detail">
+			<span class="fh">Join our Membership</span>
+			<br>
+			<br>
+			Become a member!<br>
+			View full membership benefits and Join<br>
+				<span class="link"><a href="membership.html" class="jl">HERE</a></span>
+			</p>
+			<p class="f_detail">
+			<span class="fh">Connect with us</span>
+			<br>
+			<br>
+			<a href="http://www.facebook.com" target="_blank"><img src="../icon/facebook.png" alt="Facebook" class="icon"></a>
+			<a href="http://www.twitter.com" target="_blank"><img src="../icon/twitter.png" alt="Twitter" class="icon"></a>
+			<a href="http://www.instagram.com" target="_blank"><img src="../icon/instagram.png" alt="Instagram" class="icon"></a>
+			<a href="http://www.pinterest.com" target="_blank"><img src="../icon/pinterest.png" alt="Pinterest" class="icon"></a>
+			<a href="http://www.youtube.com" target="_blank"><img src="../icon/youtube.png" alt="Youtube" class="icon"></a>
+			</p>
+		</footer>
+</body>
+</html>
